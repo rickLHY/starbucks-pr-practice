@@ -140,6 +140,13 @@ footer {
 
 @media (max-width: 768px) {
   /* TODO: mobile-menu 任務在這裡完成 */
+  .feature-card {
+    flex-direction: column;
+  }
 
+  .feature-visual,
+  .feature-copy {
+    width: 100%;
+  }
   /* TODO: card-responsive 任務在這裡完成 */
 }
