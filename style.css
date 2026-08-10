@@ -138,6 +138,46 @@ footer {
   text-align: center;
 }
 
+
+.reward-card {
+  display: flex;
+  width: min(1120px, calc(100% - 40px));
+  margin: 40px auto;
+  background: #d4e9e2;
+}
+
+.reward-visual,
+.reward-copy {
+  width: 50%;
+  min-height: 360px;
+}
+
+.reward-visual {
+  display: grid;
+  place-items: center;
+  background: #006241;
+}
+
+.reward-visual span {
+  font-size: 120px;
+}
+
+.reward-copy {
+  display: flex;
+  padding: 48px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.reward-copy h2 {
+  margin: 8px 0;
+  font-size: 42px;
+}
+
+
+
+
 @media (max-width: 768px) {
   /* TODO: mobile-menu 任務在這裡完成 */
 
