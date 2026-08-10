@@ -66,6 +66,10 @@ body {
   color: #fff;
 }
 
+.button-light:hover {
+  color: #1e3932;
+}
+
 .button-dark {
   color: #1e3932;
 }
