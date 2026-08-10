@@ -143,3 +143,27 @@ footer {
 
   /* TODO: card-responsive 任務在這裡完成 */
 }
+
+.card {
+    width: 100%; 
+    display: flex;
+    align-items: center;
+}
+
+.img-container, .text-container {
+    width: 50%; 
+}
+
+.img-container img {
+    max-width: 100%; 
+}
+
+.text-container {
+    padding: 40px 48px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 24px;
+}
